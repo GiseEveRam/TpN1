@@ -1,0 +1,23 @@
+GET http://localhost:3000/peliculas HTTP/1.1
+
+###
+GET  http://localhost:3000/peliculas/1  HTTP/1.1
+
+###
+POST  http://localhost:3000/peliculas HTTP/1.1
+Content-Type: application/json
+{
+    "nombre": "El dia desmpues de mañana",
+    "director" : "Cameron"
+}
+
+###
+PUT  http://localhost:3000/peliculas/3 HTTP/1.1
+Content-Type: application/json
+{
+    
+    "director" : "Spilberg"
+}
+
+###
+DELETE   http://localhost:3000/peliculas/2 HTTP/1.1

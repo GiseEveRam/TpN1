@@ -1,0 +1,19 @@
+{
+    "peliculas": [
+        {
+            "id": 1,
+            "nombre": "Todo sobre mi madre",
+            "director" : "Almodobar"
+        },
+        {
+            "id": 2,
+            "nombre": "Titanic",
+            "director" : "James Cameron"
+        },
+        {
+            "id": 3,
+            "nombre": "Mama mia",
+            "director" : "James"
+        }
+    ]
+}
